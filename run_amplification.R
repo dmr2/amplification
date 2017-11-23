@@ -18,10 +18,10 @@
 rm(list=ls(all=TRUE))
 setwd("/Users/dmr/Dropbox/IPCC Sea Level/amplification")
 
-source("GPDsample.R")
-source("GPDNExceed.R")
-source("openSLR.R")
-source("calcAF.R")
+source("routines/GPDsample.R")
+source("routines/GPDNExceed.R")
+source("routines/openSLR.R")
+source("routines/calcAF.R")
 
 
 # Location of local sea level rise Monte Carlo samples
